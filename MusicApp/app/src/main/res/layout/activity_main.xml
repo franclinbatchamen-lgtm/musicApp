@@ -5,15 +5,31 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/sl_123119_26540_08"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/titleID"
+        android:layout_width="143dp"
+        android:layout_height="44dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Songify"
+        android:textColor="#FF9800"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/musicDisplayID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="songs:"
+        android:textColor="#FFC107"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="137dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
